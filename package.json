@@ -1,0 +1,54 @@
+{
+  "name": "think-Pangpang",
+  "description": "application created by thinkjs",
+  "version": "1.0.0",
+  "author": "ChhXin <chh.xin@gmail.com>",
+  "scripts": {
+    "start": "node development.js",
+    "test": "THINK_UNIT_TEST=1 nyc ava test/ && nyc report --reporter=html",
+    "lint": "eslint src/",
+    "lint-fix": "eslint --fix src/"
+  },
+  "dependencies": {
+    "think-cache": "^1.0.0",
+    "think-cache-file": "^1.0.8",
+    "think-logger3": "^1.0.0",
+    "think-model": "^1.0.0",
+    "think-model-mysql": "^1.0.0",
+    "think-session": "^1.0.0",
+    "think-session-file": "^1.0.5",
+    "think-view": "^1.0.0",
+    "think-view-nunjucks": "^1.0.1",
+    "thinkjs": "^3.0.0"
+  },
+  "devDependencies": {
+    "antd": "^3.11.6",
+    "ava": "^0.18.0",
+    "eslint": "^4.2.0",
+    "eslint-config-think": "^1.0.0",
+    "nyc": "^7.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "think-watcher": "^3.0.0",
+    "webpack": "^4.28.2"
+  },
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "readmeFilename": "README.md",
+  "thinkjs": {
+    "metadata": {
+      "name": "think-Pangpang",
+      "description": "application created by thinkjs",
+      "author": "ChhXin <chh.xin@gmail.com>",
+      "babel": false
+    },
+    "projectName": "think-Pangpang",
+    "template": "C:\\Users\\ChhXin\\AppData\\Roaming\\npm\\node_modules\\think-cli\\default_template",
+    "clone": false,
+    "isMultiModule": false
+  }
+}
